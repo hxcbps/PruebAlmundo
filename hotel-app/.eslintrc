@@ -1,0 +1,9 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+    "arrow-body-style": 0,
+    "global-require": "off",
+    "max-len": [1, 120, 2]
+  },
+  "globals": { "fetch": false }
+}

@@ -17,5 +17,7 @@ export const getHotel = id => {
       .then(response => response.json())
         .then(data => resolve(data))
         .catch(e => reject(e));
+
+
   });
 };
